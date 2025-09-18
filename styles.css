@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.header-section {
+    background-color: #B7BCA9;
+    color: white;
+}
+header {
+    background-color: #B7BCA9;
+    
+}
+.container {
+    max-width: 1760px;
+    margin: 0 auto;
+    border: 1px solid #db1919;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px ;
+
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.menu-toggle {
+    font-size: 24px;
+}
+.left a {
+    text-decoration: none;
+    color: #333;
+
+    gap: 10px;
+}
+
+.header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+    position: relative;
+    font-family: "Elsie Swash Caps",;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-right a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+.nav-right{
+    text-decoration: none;
+}
+.lang-button {
+    padding: 8px 12px;
+    border-radius: 4px;
+    gap: 20px;
+
+}
+
