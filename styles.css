@@ -19,7 +19,7 @@ header {
 .container {
     max-width: 1760px;
     margin: 0 auto;
-    border: 1px solid #db1919;
+    border: 3px solid #0ccaca;
 }
 
 .header {
@@ -29,11 +29,19 @@ header {
     padding: 20px 0px ;
 
 }
+.left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border: 1px solid #088627;
+    
+}
 
 .nav-left {
     display: flex;
     align-items: center;
     gap: 40px;
+    border: 1px solid #193ddb;
 }
 .menu-toggle {
     font-size: 24px;
@@ -58,19 +66,92 @@ header {
     display: flex;
     align-items: center;
     gap: 15px;
+    border: 1px solid #0a1175;
 }
 .nav-right a {
     text-decoration: none;
     color: #333;
     font-weight: 500;
+    border: 1px solid #19db39;
 }
 .nav-right{
     text-decoration: none;
+    border: 1px solid #91087a;
+    
 }
 .lang-button {
     padding: 8px 12px;
     border-radius: 4px;
     gap: 20px;
 
-}
 
+}
+.menu-section {
+    padding: 60px 20px;
+    background-color: #F9F9F9;
+    text-align: center;
+}
+.menu-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Elsie Swash Caps', cursive;
+}
+.menu-description {
+    font-size: 16px;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+.menu-categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+.menu-categories button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #B7BCA9;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.menu-categories button:hover {
+    background-color: #8A9275;
+}
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+}
+.menu-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+.menu-card:hover {
+    transform: translateY(-5px);
+}
+.menu-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.menu-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    color: #333;
+}
+.menu-card p {
+    font-size: 16px;
+    color: #666;
+}
