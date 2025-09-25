@@ -19,6 +19,7 @@ header {
   gap: 70px;
   margin-inline: 80px;
   border-radius: 8px;
+  flex: wrap;
 }
 
 .navbar {
@@ -35,7 +36,7 @@ header {
 .menu {
   list-style: none;
   display: flex;
-  gap: 2rem;
+  gap: 5rem;
 }
 
 .menu a {
@@ -115,10 +116,10 @@ header {
 
 .brand {
   background: #1a1a1a;
-  padding: 1.5rem;
+  padding: 0;
   border-radius: 10px;
   color: #777;
   font-weight: bold;
-  text-transform: uppercase;
   text-align: center;
 }
+
