@@ -1,36 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-     <container class="heading">
-
+ 
+  <header class="navbar">
+    <container class="heading">
     <nav>
-
-      <ul class="nav-links">
+      <ul class="menu">
         <li><a href="#">Home</a></li>
         <li><a href="#">Case Studies</a></li>
         <li><a href="#">Testimonials</a></li>
         <li><a href="#">Recent Work</a></li>
         <li><a href="#">Get In Touch</a></li>
       </ul>
-      <div class="social-icons">
-        <a href="#"><img src="imgs/lnkd.svg" alt="LinkedIn" /></a>
-        <a href="#"><img src="imgs/bhnc.svg" alt="Behance" /></a>
-        <a href="#"><img src="imgs/twit.svg" alt="Twitter" /></a>
-        
+      <div class="socials">
+        <a href="#"><img src="imgs/lnkd.svg"></a>
+        <a href="#"><img src="imgs/bhnc.svg"></a>
+        <a href="#"><img src="imgs/twit.svg" alt=""></a>
       </div>
-      
     </nav>
-     </container>
-
+    </container>
   </header>
 
-  
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Your Name Here</h1>
+      <p>
+        Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <a href="#" class="btn">Let’s get started</a>
+    </div>
+    <div class="hero-img">
+      <img src="imgs/man.svg" alt="Profile">
+    </div>
+  </section>
+
+  <section class="brands">
+    <p>Worked with</p>
+    <div class="brand-logos">
+      <div class="brand">ClickUp</div>
+      <div class="brand">Dropbox</div>
+      <div class="brand">Paychex</div>
+      <div class="brand">Elastic</div>
+      <div class="brand">Stripe</div>
+    </div>
+  </section>
 </body>
 </html>
