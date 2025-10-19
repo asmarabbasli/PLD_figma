@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Signup & Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="form-section">
+      <h2 id="form-title">Get Started Now</h2>
+
+      <form id="signup-form" class="form active">
+        <label>Name</label>
+        <input type="text" placeholder="Enter your name" required />
+
+        <label>Email address</label>
+        <input type="email" placeholder="Enter your email" required />
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter your password" required />
+
+        <div class="checkbox">
+          <input type="checkbox" id="terms" required />
+          <label for="terms">I agree to the <a href="#">terms & policy</a></label>
+        </div>
+
+        <button type="submit" class="btn">Signup</button>
+
+        <div class="divider">or</div>
+
+        <div class="socials">
+          <button class="google"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Google"> Sign in with Google</button>
+          <button class="apple"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" alt="Apple"> Sign in with Apple</button>
+        </div>
+
+        <p class="switch-text">Have an account? <a href="#" id="to-login">Sign in</a></p>
+      </form>
+
+      <form id="login-form" class="form">
+        <label>Email address</label>
+        <input type="email" placeholder="Enter your email" required />
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter your password" required />
+
+        <button type="submit" class="btn">Login</button>
+
+        <div class="divider">or</div>
+
+        <div class="socials">
+          <button class="google"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Google"> Sign in with Google</button>
+          <button class="apple"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" alt="Apple"> Sign in with Apple</button>
+        </div>
+
+        <p class="switch-text">Don't have an account? <a href="#" id="to-signup">Signup</a></p>
+      </form>
+    </div>
+
+    <div class="image-section">
+      <img src="photo.svg" alt="Leaf" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
